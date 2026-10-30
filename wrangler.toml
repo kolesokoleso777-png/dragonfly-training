@@ -1,0 +1,10 @@
+name = "dragonfly-training"
+compatibility_date = "2026-10-30"
+pages_build_output_dir = "."
+
+# D1 is bound in the Cloudflare Pages dashboard as variable DB.
+# If you later use Wrangler deployments, add the real database_id from Cloudflare:
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "<actual D1 database name>"
+# database_id = "<actual D1 database ID>"
